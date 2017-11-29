@@ -1,0 +1,131 @@
+.team {
+	padding: 20px 0px;
+}
+.name{
+	color: #020725;
+	margin-top: 50px;
+}
+
+label {
+	color: #03570C;
+}
+
+.picture-img{
+	max-height: 50px;
+	max-width: 50px;
+}
+
+.inicio_ag{
+	background-color: #020722;
+}
+
+#footer	{            
+    margin: 0px auto 0px auto;
+    padding: 0px 0 0 0;
+    text-align: center;
+    position: static;
+    width: 100%;      
+}
+.fixed { 
+	position: fixed; 
+}
+.static { 
+position: static; 
+}
+
+#footer-left	{
+    color: #FFFFFF;	 
+    font-size: 11px;
+    line-height: 11px;
+    padding: 10px 0 10px 0px;
+    border-top: 5px solid #A5151E;
+    border-bottom: 1px solid #dbdbdb;
+    background: #2A2A2A;    
+    height: 12px;            
+} 
+
+#footer-left a	{
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+#menu-princ {
+	color: #2E8CE4;
+	background-color:#020722;
+}
+
+#footer-left 	 a.selected,
+#footer-left 	 a:hover	{
+    color: red;
+    text-decoration: none;
+}
+
+#main-news {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color:  #03570C;
+}
+
+#sociais-img {
+	max-height: 35px;
+	max-width: 35px;
+	min-height: 20px;
+	min-width50px: 20px;
+}
+#footer-logo {
+	down: 50px;
+	max-height: 150px;
+	max-width: 200px;
+	min-height: 80px;
+	min-width50px: 160px;
+}
+
+#rodape-style {
+	background-color:#020722;
+	color: #2E8CE4;
+}
+
+#logo-central {
+	max-height: 65px;
+	max-width: 160px;
+	min-height: 65px;
+	min-width: 160px;
+	float: right;
+	text-align: center;
+	right: 300px;
+}
+.button_up{
+	padding:7px; /* posicionamento interno da imagem */
+	border:1px solid #fff; /* cor da borda, troque ou exclua se desejar */
+	position:fixed;
+	background: transparent url(ENDEREÇO DE SUA IMAGEM SUBIR) no-repeat top left; /*troque transparent pelo código da cor, caso queira*/
+	background-position:50% 50%;
+	width:52px; /* largura do botão */
+	height:28px; /*altura do botão */
+	bottom:80px; /* distância em relação à base */
+	right:5px; /* distância da direita */
+	white-space:nowrap;
+	cursor: pointer;
+	border-radius: 3px 3px 3px 3px;
+	opacity:0.7;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+.button_down{
+	padding:7px; /* posicionamento interno da imagem */
+	border:1px solid #fff;  /* cor da borda, troque ou exclua se desejar */
+	position:fixed;
+	background: #transparent url(ENDEREÇO DE SUA IMAGEM DESCER) no-repeat top left; /*troque transparent pelo código da cor, caso queira*/
+	background-position:50% 50%;
+	width:52px; /* largura do botão */
+	height:28px; /* altura do botão */
+	bottom:42px; /* distâmcia em relação à base */
+	right:5px; /* altere se quiser alinhar à esquerda */
+	white-space:nowrap;
+	cursor: pointer;
+	border-radius: 3px 3px 3px 3px;
+	opacity:0.7;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
